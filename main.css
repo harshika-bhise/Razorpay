@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.featureCard2:hover {
+    background-image: url(./images/features2-wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 1rem right;
+}
+
+.featureCardBox:hover {
+    background-image: url(./images/features2-wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 1rem right;
+}
+
+.ctaSection {
+    min-height: 880px;
+}
+
+.ctaBg {
+    background-size: 100% 100%;
+}
